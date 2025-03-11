@@ -1,0 +1,16 @@
+{
+  "id": "ollamachat",
+  "version": "1.0.0-pre1",
+  "name": "OllamaChat",
+  "description": {
+    "en_us": "Let your server chat with AI using Ollama or OpenAI",
+    "zh_cn": "让你的服务器接入 Ollama 或 OpenAI 进行AI对话"
+  },
+  "dependencies": {
+    "uuid_api": ">=0.1.2"
+  },
+  "author": "xwwsdd",
+  "link": "https://github.com/mcraftbbs/OllamaChat_MCDR"
+}
+
+

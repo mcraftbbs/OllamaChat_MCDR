@@ -1,0 +1,4 @@
+mcdreforged
+requests
+openai
+

@@ -1,0 +1,19 @@
+{
+  "api_key": "your_api_key_here",
+  "ollama_base_url": "http://localhost:11434",
+  "openai_base_url": "https://api.openai.com/v1",
+  "model": "llama3",
+  "system_prompt": "你是一个Minecraft助手，负责回答玩家的相关问题",
+  "prefix": "§a[OllamaChat]§r",
+  "permission": {
+    "guide": 1,
+    "records": 1,
+    "reset": 1,
+    "setup": 1,
+    "label": 1,
+    "init system": 1,
+    "chat": 1
+  }
+}
+
+

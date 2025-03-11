@@ -1,0 +1,39 @@
+ollamachat:
+  only_by_player: §1【！】该命令只能由玩家使用
+  create_config: §r创建配置文件
+  correct_config: 配置文件格式正确
+
+  records:
+    reset: §a历史消息已清空
+
+  label:
+    current: §a当前AI名称为：
+    set: §aAI名称修改成功
+
+  guide_message: 
+    |
+    §b[OllamaChat]§r 命令：
+    §6!!oc guide§r 查看指南
+    §6!!oc label§r 获取AI名称
+    §6!!oc label <label>§r 设置AI名称
+    §6!!oc records§r 查看历史对话
+    §6!!oc reset§r 清空历史消息
+    §6!!oc setup§r 查看AI预设
+    §6!!oc setup <setup>§r 设置AI预设
+    §6!!oc init setup§r 读取AI预设
+    §6!!oc chat <message>§r 与AI对话
+
+
+  setup:
+    current: §a当前AI预设为：
+    done: §aAI预设修改成功
+    init: §aAI预设初始化成功
+
+  error:
+    no_setup: §c未找到该AI预设
+    input_label_empty: §cAI名称不能为空
+    input_label_too_long: §cAI名称不能超过8个字符
+    check_empty: 未检测到
+    config_error: 配置文件错误
+    please_check_config: 请编辑 config.json 文件
+    api_failed: §cAPI调用失败：
