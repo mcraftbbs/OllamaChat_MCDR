@@ -2,7 +2,13 @@
 
 [The officially developed OllamaChat plugin MCDR version]
 
+📜 LICENSE: **GNU GPLv3** [![License: GPLv3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 A Minecraft server plugin for MCDReforged that enables players to chat with AI using either Ollama or OpenAI.
+
+## 📦 Dependencies
+- Main Dependency: [MCDReforged](https://github.com/MCDReforged/MCDReforged) v2.x
+- *Required Dependency*: [uuid_api](https://github.com/AnzhiZhang/MCDReforgedPlugins/tree/master/src/uuid_api) (GPLv3)
 
 ## Features
 - Chat with AI directly in Minecraft.
@@ -68,5 +74,4 @@ All commands are prefixed with `!!oc` and can only be used by players.
 Permissions are configurable in `config.json` under `"permission"`. Default level is `1` for all commands.
 
 ## Support
-- Author: xwwsdd
 - Report issues or suggest features on GitHub/[community server](https://chat.sarskin.cn/invite/iHgI6LTX)..
