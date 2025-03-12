@@ -1,3 +1,4 @@
+Reference: https://github.com/gubaiovo/MCDR_chat_with_ai
 # OllamaChat
 
 [The officially developed OllamaChat plugin MCDR version]
