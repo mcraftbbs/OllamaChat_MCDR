@@ -1,41 +1,21 @@
 ollamachat:
-  only_by_player: §1[!] This command can only be used by players
-  create_config: §rCreate configuration file
-  correct_config: Correct configuration file format
+  player_only: §c[!] This command is for players only
+  config_created: §rGenerate configuration file
 
-  records:
-    reset: §aHistory messages cleared
-
-  label:
-    current: §aCurrent AI label is:
-    set: §aAI label modified successfully
-
-  guide_message: 
-    |
-    §b[OllamaChat]§r Commands:
-    §6!!oc guide§r View guide
-    §6!!oc label§r Get AI label
-    §6!!oc label <label>§r Set AI label
+  guide_message: |
+    §a[OllamaChat]§r Commands:
+    §6!!oc guide§r Show help
     §6!!oc records§r View chat history
-    §6!!oc reset§r Clear history messages
-    §6!!oc setup§r View AI setup
-    §6!!oc setup <setup>§r Set AI setup
-    §6!!oc init setup§r Load AI setup
+    §6!!oc reset§r Clear history
+    §6!!oc restore§r Restore default prompt
     §6!!oc chat <message>§r Chat with AI
 
-  setup:
-    current: §aCurrent AI setup is:
-    done: §aAI setup modified successfully
-    init: §aAI setup initialized successfully
+  records:
+    reset: §aHistory cleared
+    empty: §7No chat history yet
 
   error:
-    no_setup: §cAI setup not found
-    input_label_empty: §cAI label cannot be empty
-    input_label_too_long: §cAI label cannot exceed 8 characters
-    check_empty: Not detected
-    config_error: Configuration file error
-    please_check_config: Please edit the config.json file
-    api_failed: §cAPI call failed:
-
-
-  
+    no_permission: §cInsufficient permissions
+    missing_keys: §cMissing required config fields
+    config_error: §cConfiguration file error
+    error.api_failed: §cAPI call failed=

@@ -1,6 +1,6 @@
 {
   "id": "ollama_chat",
-  "version": "1.0.0-pre1",
+  "version": "1.0.0-pre2",
   "name": "OllamaChat",
   "description": {
     "en_us": "Let your server chat with AI using Ollama or OpenAI",
